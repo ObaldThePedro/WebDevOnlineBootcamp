@@ -1,0 +1,14 @@
+table{
+	width:100px;
+	height:100px;
+	margin:auto;
+}
+
+.vertical{
+	border-right:solid black 1px;
+	border-left:solid black 1px;
+}
+
+.horizontal{
+	border-bottom:solid black 1px;
+}

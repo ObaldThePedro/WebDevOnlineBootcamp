@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Form</title>
+	</head>
+	<body>
+		<form action="" method="post">
+			<label for="firstname">First Name</label>
+				<input id="firstname" type=text placeholder="Pedro" required>
+			<label for="lastname">Last Name</label>
+				<input id="lastname" type=text placeholder="Loureiro" required><br>
+			
+			<label for="male">Male</label>
+				<input name="Gender" id="male" type="radio" value="male">
+			<label for="female">Female</label>
+				<input name="Gender" id="female" type="radio" value="male"><br>
+				
+			<label for="emailadress">Email:</label>
+				<input id="emailadress" type="email" placeholder="your email" required>
+			<label for="password">Password:</label>
+				<input pattern=".{5,10}" required title="5 to 10 characters"id="password" type="password" placeholder="your password" required><br>
+				
+			<labeL>Birthday:
+				<select name="month">
+				<option>Month</option>
+				<option>Jan</option>
+				<option>Feb</option>
+				<option>Mar</option>
+				</select>
+				
+				<select name="day">
+				<option>Day</option>
+				<option>1</option>
+				<option>10</option>
+				<option>15</option>
+				</select>
+				
+				<select name="year">
+				<option>Year</option>
+				<option>1993</option>
+				<option>1999</option>
+				<option>1980</option>
+				</select><br>
+				
+			</labeL>	
+				
+				<label for="agreement">I agree to the terms and conditions:</label>
+				<input id="agreement" name="agreed" type=checkbox><br>
+				
+				<input type="submit">								
+		</form>
+	</body>
+</html>
